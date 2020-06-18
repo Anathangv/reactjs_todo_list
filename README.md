@@ -1,0 +1,2 @@
+# reactjs_todo_list
+Project created to practice and improve my skills in reactjs. This app was based on a suggested todo app in this video on youtube (https://www.youtube.com/watch?v=N8kYlimhuLw&amp;t=1827s). As I made the app before watching the video, some partes are different and I decided to keep them, but the css part is pretty much equal. In this App I highlight the use of: - operation of adding and removing itens from a array. - use of input text component and treatment to edit it and keep its changes. - the css used to create the interface.
