@@ -1,0 +1,50 @@
+.taskItem {
+  color: white;
+  width: 300px;
+  height: 40px;
+  background-color: #7d9110;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+
+.taskItem p {
+  position: relative;
+  padding: 5px;
+}
+
+.taskItem p input {
+  background-color: transparent;
+  border: 0px;
+  color: white;
+  font-size: 18px;
+}
+
+.taskItem p input:focus {
+  outline: none;
+}
+
+.taskItem p span {
+  position: absolute;
+  right: 10px;
+}
+
+.btnDel {
+  background-color: #f44336;
+  border-radius: 50%;
+  border: 2px solid #f44336;
+  width: 35px;
+  cursor: pointer;
+}
+
+.btnDel:hover {
+  background-color: #9c1006;
+  border-color: #9c1006;
+  border: 2px solid #9c1006;
+  transition-duration: 0.4s;
+  outline: none;
+}
+
+.btnDel:focus {
+  outline: none;
+  box-shadow: none;
+}

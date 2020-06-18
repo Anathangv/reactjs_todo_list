@@ -1,0 +1,55 @@
+body {
+  background-color: darkslategray;
+}
+
+.container {
+  background-color: aqua;
+  min-height: 500px;
+  width: 400px;
+  margin: 40px auto;
+  border-radius: 15px;
+}
+
+h1 {
+  margin: 0%;
+  background-color: #7d9110;
+  padding: 10px;
+  text-align: center;
+  color: darkslategray;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  font-weight: 900;
+}
+
+.inputTask {
+  background-color: darkslategray;
+  border: 0;
+  width: 200px;
+  height: 50px;
+  padding: 0 20px;
+  margin: 20px;
+  margin-top: 5px;
+  font-size: 18px;
+  color: white;
+  border-radius: 5px;
+}
+
+.nputTask::placeholder {
+  color: rgb(100, 148, 148);
+}
+
+.inputTask:focus,
+.btnAdd {
+  outline: none;
+}
+
+.btnAdd {
+  height: 50px;
+  width: 88px;
+  border-radius: 5px;
+  border: 0;
+  background-color: darkorange;
+  font-weight: bolder;
+  color: white;
+  cursor: pointer;
+}
